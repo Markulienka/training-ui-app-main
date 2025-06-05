@@ -13,10 +13,10 @@ const buildConfig = {
 	mode: "production",
 	entry: path.resolve(__dirname, "../src/index.jsx"),
 	output: {
-		path: path.resolve(__dirname, "../docs"),  
+		path: path.resolve(__dirname, "../dist"),  
 		filename: "bundle.[contenthash].js",
 		clean: true,
-		publicPath: "./"
+		publicPath: "/"
 	},
 	resolve: {
 		extensions: [".js", ".jsx"]

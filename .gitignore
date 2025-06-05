@@ -2,10 +2,12 @@
 
 # dependencies
 node_modules
+package.json
 
 # production
 build
 dist
+docs/
 
 # misc
 .DS_Store
